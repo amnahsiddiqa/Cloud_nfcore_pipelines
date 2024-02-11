@@ -4,6 +4,7 @@
 
 
 1- Get in your VM on GCP 
+
 2- create top level nextflow.config `nano  nextflow.config`
 
 
