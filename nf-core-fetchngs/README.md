@@ -15,7 +15,7 @@ profiles {
 ```
 
 
-3- craete custom batch config file `nano conf/test-batch.config`. I have mounted GCS bucket as working directory here.
+3- Create custom batch config file `nano conf/test-batch.config`. I have mounted GCS bucket as working directory here.
 
 ```
 params {
