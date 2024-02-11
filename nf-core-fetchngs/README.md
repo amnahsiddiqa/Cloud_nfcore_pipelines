@@ -57,6 +57,10 @@ These warnings may keep on appearing but need to fix it.
 WARN: Batch job cannot be run: VM in Managed Instance Group meets error: Batch Error: code - CODE_GCE_QUOTA_EXCEEDED, description - error count is 4, latest message example: Instance 'nf-be93a727-170767-bb09690d-ae36-4f790-group0-0-5pdz' creation failed: Quota 'N2_CPUS' exceeded.  Limit: 24.0 in region us-central1
 ```
 
+Output looks like this.
+
+![image](https://github.com/amnahsiddiqa/cloud_nfcore_pipelines/assets/28387956/2a80528c-1fa6-466a-b693-7149bc484c21)
+
 
 ## To do 
 
