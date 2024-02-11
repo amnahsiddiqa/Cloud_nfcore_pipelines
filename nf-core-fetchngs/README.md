@@ -37,10 +37,8 @@ google {
 ```
 
 4- Run on test dataset. I mounted GCS bucket as outdir here.
-It is  
 
 ```
-
 echo PRJNA940201 > ids.csv
 
 # 15 samples | unstranded | Paired end  
