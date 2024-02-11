@@ -1,4 +1,4 @@
-# nf-core pipelines on scale 
+# nf-core pipelines at scale 
 
 - Tests for running nf-core pipelines on GCP for now 
 - Each directory has documentation of setting and testing  individual pipelines supported by nf-core or nextflow in Google cloud env. 
