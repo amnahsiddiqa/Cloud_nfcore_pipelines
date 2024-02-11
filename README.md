@@ -11,7 +11,7 @@
 
 ## Acknowledgements
 
-All data science enthusiasts who support and contribute to open scinece and use FAIR policies for it especially everyone in nextflow and nf-core community.
+All data science enthusiasts who support and contribute to open scinece and use FAIR policies for it and especially wonderful nextflow and nf-core community members. Cheers!!
 
 
 ## Maintainer 
