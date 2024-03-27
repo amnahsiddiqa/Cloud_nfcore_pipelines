@@ -100,3 +100,4 @@ pipelines:
 ## To do 
 
 - Add config file to control resources to deal with quotas etc by using forks and error strategies.
+- How to delete all datsets at once from seqera
