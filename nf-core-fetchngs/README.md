@@ -63,6 +63,40 @@ Output looks like this.
 ![image](https://github.com/amnahsiddiqa/cloud_nfcore_pipelines/assets/28387956/2a80528c-1fa6-466a-b693-7149bc484c21)
 
 
+
+
+## Run on Seqera
+
+- git add github_pat
+See more on https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+```
+datasets:
+  - name: 'fetchngstest'
+    description: 'testfetchngs'
+    header: false
+    workspace: '71294787280764' 
+    file-path: 'ids.csv'
+    overwrite: True
+
+  ## To see the full list of options available run: "tw pipelines add"
+## The options required to create pipelines can be specified:
+##   1. Explicitly in this file
+##   2. Via a JSON file exported from SeqeraPlatform with the "tw pipelines export" command
+pipelines:
+  - name: 'my_first_fetchngs'                         # required
+    url: "https://github.com/amnahsiddiqa/fetchngs"
+    workspace: 'alphanumeric'         # required
+    description: 'My test pipeline'                   # optional
+    compute-env: 'hipciiigv'         # required
+    work-dir: 'gs://rnavarhipciii'                        # optional                                  # optional
+    revision: 'master'                                  # required
+    params:                                           # optional
+      outdir: 'gs://rnavarhipciii/test'
+    config: './nextflow.config'          # optional
+      
+  
+```
+
 ## To do 
 
 - Add config file to control resources to deal with quotas etc by using forks and error strategies.
