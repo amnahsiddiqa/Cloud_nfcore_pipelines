@@ -74,7 +74,7 @@ datasets:
   - name: 'fetchngstest'
     description: 'testfetchngs'
     header: false
-    workspace: '71294787280764' 
+    workspace: 'numeric' 
     file-path: 'ids.csv'
     overwrite: True
 
@@ -85,7 +85,7 @@ datasets:
 pipelines:
   - name: 'my_first_fetchngs'                         # required
     url: "https://github.com/amnahsiddiqa/fetchngs"
-    workspace: 'alphanumeric'         # required
+    workspace: 'numeric'         # required
     description: 'My test pipeline'                   # optional
     compute-env: 'hipciiigv'         # required
     work-dir: 'gs://rnavarhipciii'                        # optional                                  # optional
